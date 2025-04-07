@@ -1,6 +1,6 @@
 # TIC-TAC-TOE
 
-LIVE-DEMO:
+LIVE-DEMO: https://adrsshh.github.io/TIC-TAC-TOE/
 
 A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Play against your friends in the browser and enjoy a clean, responsive design with basic game logic and winner detection.
 
