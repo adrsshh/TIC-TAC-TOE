@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?t=st=1743522294~exp=1743525894~hmac=b68a3b66bc1ce7093e71677e8f49eb308acfabf5cc6f4612575638da2add3322&w=996);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 40vw;
+    min-width: 400px;
+    max-height: 95vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 10px 30px rgb(248, 203, 2);
+}
+
+h1 {
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    background-image: linear-gradient(180deg, rgb(14, 2, 58), rgb(0, 0, 0), rgb(14, 2, 58));
+}
+
+.board {
+
+    display: flex;
+    color: aliceblue;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    max-width: 460px;
+    min-width: 380px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 18px rgb(255, 0, 0);
+    background-image: linear-gradient(90deg, rgb(7, 7, 31));
+}
+
+#player {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#photo {
+    width: 30px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    position: static;
+}
+
+#reset {
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid rgb(66, 51, 51);
+    color: white;
+    margin: 40px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(90deg, rgb(12, 46, 48), rgb(6, 10, 44), rgb(0, 0, 0));
+}
+
+#reset:hover {
+    width: 200px;
+    color: yellow;
+    font-size: larger;
+    background-image: linear-gradient(90deg, rgb(4, 3, 31), rgb(4, 44, 165), rgb(14, 14, 48));
+}
