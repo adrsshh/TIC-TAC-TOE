@@ -6,9 +6,9 @@ body {
 
 .container {
     width: 90%;
-    max-width: 40vw;
+    max-width: 31vw;
     min-width: 400px;
-    max-height: 95vh;
+    max-height: 89vh;
     margin: auto;
     margin-top: 20px;
     display: flex;
